@@ -1,9 +1,14 @@
 .flat {
   width: 350px;
-  flex-basis: calc(50% - 20px);
+  flex-basis: calc(50% - 28px);
   margin: 10px;
   cursor: pointer;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  border: 4px solid transparent;
+}
+
+.flat.selected {
+  border: 4px solid red;
 }
 
 .flat:hover {

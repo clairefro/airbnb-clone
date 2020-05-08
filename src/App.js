@@ -69,6 +69,7 @@ class App extends Component {
               key={flat.id}
               flat={flat}
               selectFlat={this.selectFlat}
+              selectedFlat={this.state.selectedFlat}
             />
           ))}
         </div>

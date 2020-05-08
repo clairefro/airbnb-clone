@@ -16,7 +16,10 @@ class Flat extends Component {
       backgroundImage: `url(${this.props.flat.imageUrl})`
     }
     return (
-      <div className="flat" onClick={this.selectFlat}>
+      <div
+        className={`flat ${this.props.flat === this.props.selectedFlat ? 'selected' : ''}`}
+        onClick={this.selectFlat}
+      >
         <div className="flat-picture" style={style}></div>
         <div className="flat-title">
           {title}
