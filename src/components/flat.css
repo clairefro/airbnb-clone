@@ -4,6 +4,7 @@
   margin: 10px;
   cursor: pointer;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
 }
 
 .flat.selected {
@@ -18,6 +19,8 @@
   height: 200px;
   background-size: cover;
   background-position: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .flat-title {
